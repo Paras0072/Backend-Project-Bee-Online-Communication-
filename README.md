@@ -49,6 +49,7 @@ JWT_SECRET=<your_jwt_secret>
 PORT=5000
 
 ### Installation
+
 1. Clone the repository:
    git clone https://github.com/Paras0072/Backend-Project-Bee-Online-Communication-.git
 Install dependencies:
@@ -56,9 +57,11 @@ Install dependencies:
 npm install
 
  ##  Endpoints
+
 The API provides the following endpoints:
 
  # User Authentication
+
  ### Register User
  
  * URL: `/auth/register`
@@ -80,6 +83,7 @@ The API provides the following endpoints:
   "status": "success",
   "message": "User registered successfully"
 }
+
 ### Login User
  
  * URL:/auth/login
@@ -102,7 +106,9 @@ The API provides the following endpoints:
   "message": "<JWT_TOKEN>"
 }
  # Project Management
+
 ### Student Management
+
  * GET /student/getAll : Get a list of all students.(requires JWT)
  * GET /student/getStudentById/:id: Get details of a specific student.(requires JWT)
  * POST /student/create: Add a new student (requires JWT).
@@ -110,6 +116,7 @@ The API provides the following endpoints:
  * DELETE /student/delete/:id: Delete a student (requires JWT)
 
 ### User Management
+
  * PATCH /auth/block/:id: Block a user by ID.
  * PATCH /auth/unblock/:id: Unblock a user by ID
 
@@ -131,24 +138,31 @@ The API provides the following endpoints:
  * Run the frontend server: 
    npm start
 
- ### Frontend Features
+## Frontend Features
  
 ## Authentication
+
  * Users can log in to access protected routes.
 
 ## Student Management
+
  ###  In UI you will find the pages section in side bar where you will find this pages:
+
      ###  Student Management
+
           * Add a Student: Navigate to the "Add Student" page and fill in the required fields.
           * Edit Student: Navigate to the "Student List," click on a student's edit button to modify  their data.
           * Delete Student: Remove a student by clicking the delete button in the editing page
 ## User Management (Admin)
+
   ### Block/Unblock Users: Admin can block and unblock users from accessing the system. Blocked users are prevented from logging in or accessing certain resources.
      { This feature could be added soon in frontend }
 
   ### Side-by-Side Layout for Editing and List
+
       *  The "Edit Student" page and the "Student List" are displayed side by side, allowing admins to quickly modify and view changes in real-time.
   ### Auto-refresh Feature
+
       *  After updating or deleting a student, the page automatically refreshes to reflect the latest data.
 
 project-root/
