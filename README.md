@@ -56,13 +56,13 @@ Install dependencies:
 
 npm install
 
- ##  Endpoints
+##  Endpoints
 
 The API provides the following endpoints:
 
- # User Authentication
+# User Authentication
 
- ### Register User
+### Register User
  
  * URL: `/auth/register`
   
@@ -105,7 +105,8 @@ The API provides the following endpoints:
   "status": "success",
   "message": "<JWT_TOKEN>"
 }
- # Project Management
+
+# Project Management
 
 ### Student Management
 
@@ -119,6 +120,8 @@ The API provides the following endpoints:
 
  * PATCH /auth/block/:id: Block a user by ID.
  * PATCH /auth/unblock/:id: Unblock a user by ID
+
+---
 
 ## Frontend Setup
 
@@ -137,6 +140,8 @@ The API provides the following endpoints:
     npm install
  * Run the frontend server: 
    npm start
+
+
 
 ## Frontend Features
  
